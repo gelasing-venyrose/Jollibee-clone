@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jollibee.com</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ 
+<header>
+ <nav>
+   <a href="Jollibeewe.html">Home</a>
+   <a href="Menu.html">Menu</a>
+   <a href="Profile.html">Profile</a>
+   <a href="login.html">Log in</a>
+ </nav>
+</header>
+ 
+<div  class="signin-container">
+  <div class="signin-form">
+    <h2>Sign Up</h2>
+    <p class="subtitle">Already a member?<a href="login.html">Log In</a></p>
+  
+
+<form id="jollibeeSignupForm">
+  <div class="input-group1">
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" required>
+<br>
+<label for="passwordInput">Password:</label>
+<div class="password-wrapper">
+    <input type="password" id="passwordInput" required>
+    <button type="button" id="togglePassword" class="toggle-eye"><img src="eye.png" height="20" width="20"></button>
+</div>
+
+<ul id="passwordRequirements" class="requirements-list">
+    <li id="reqLength" class="invalid">At least 8 characters long</li>
+    <li id="reqNumber" class="invalid">Contains at least 1 number</li>
+    <li id="reqSymbol" class="invalid">Contains at least 1 special symbol</li>
+</ul>
+<br>
+<br>
+    <button type="submit" class="signup-btn">Sign Up</button>
+ <script src="security.js"></script>
+</form>
+    <br>
+    <div class="divider">
+      <span>or sign up with</span>
+    </div>
+    
+    <div class="social-login">
+      <a href="https://www.google.com" class="btn-google">Google</a>
+      <br>
+      <a href="https://www.facebook.com" class="btn-fb">Facebook</a>
+     </div>
+     </div>
+   </div> 
+ 
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jollibee.com</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+ <header>
+  <nav>
+    <a href="Jollibeewe.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Profile.html">Profile</a>
+    <a href="Signinlogin.html">Sign Up?</a>
+  </nav>
+ </header> 
+  
+  <div class="login-container">
+    <div class="login-form">
+    <h2>Welcome back!</h2>
+    <p>Don't have an account yet?<a href="Signinlogin.html">Sign Up</a></p>
+    
+<form id="jollibeeLoginForm">
+  <div class="login-input">
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" required>
+<br>
+<label for="passwordInput">Password:</label>
+<div class="password-wrapper">
+    <input type="password" id="passwordInput" required>
+    <button type="button" id="togglePassword" class="toggle-eye"><img src="eye.png" height="20" width="20"></button>
+</div>
+
+<ul id="passwordRequirements" class="requirements-list">
+    <li id="reqLength" class="invalid">At least 8 characters long</li>
+    <li id="reqNumber" class="invalid">Contains at least 1 number</li>
+    <li id="reqSymbol" class="invalid">Contains at least 1 special symbol</li>
+</ul>
+<br>
+<br>
+    <button type="submit" class="login-btn">Log in</button>
+ <script src="loginsecurity.js"></script>
+</form>
+  <br>
+  
+</body>
+</html>
